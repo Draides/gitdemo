@@ -6,7 +6,10 @@ c:\users\siarhei_hulkou\documents\visual studio 2015\Projects\MSTestForJenkins\M
 c:\users\siarhei_hulkou\documents\visual studio 2015\Projects\MSTestForJenkins\MSTestForJenkins\obj\Debug\MSTestForJenkins.pdb
 D:\GitMSTest\gitdemo\MSTestForJenkins\MSTestForJenkins\bin\Debug\MSTestForJenkins.dll
 D:\GitMSTest\gitdemo\MSTestForJenkins\MSTestForJenkins\bin\Debug\MSTestForJenkins.pdb
-D:\GitMSTest\gitdemo\MSTestForJenkins\MSTestForJenkins\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 D:\GitMSTest\gitdemo\MSTestForJenkins\MSTestForJenkins\obj\Debug\MSTestForJenkins.csprojResolveAssemblyReference.cache
 D:\GitMSTest\gitdemo\MSTestForJenkins\MSTestForJenkins\obj\Debug\MSTestForJenkins.dll
 D:\GitMSTest\gitdemo\MSTestForJenkins\MSTestForJenkins\obj\Debug\MSTestForJenkins.pdb
+D:\GitMSTest\gitdemo\MSTestForJenkins\MSTestForJenkins\bin\Debug\WebDriver.dll
+D:\GitMSTest\gitdemo\MSTestForJenkins\MSTestForJenkins\bin\Debug\WebDriver.Support.dll
+D:\GitMSTest\gitdemo\MSTestForJenkins\MSTestForJenkins\bin\Debug\WebDriver.xml
+D:\GitMSTest\gitdemo\MSTestForJenkins\MSTestForJenkins\bin\Debug\WebDriver.Support.xml
