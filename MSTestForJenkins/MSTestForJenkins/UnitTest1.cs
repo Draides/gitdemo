@@ -17,11 +17,11 @@ namespace MSTestForJenkins
             Assert.AreEqual(5, 5);
         }
 
-        [TestMethod]
+       /* [TestMethod]
         public void TestMethod2()
         {
             Assert.AreEqual(2, 2);
-        }
+        }*/
         
         private IWebDriver driver;
         private const string baseUrl = "https://www.onliner.by/";
@@ -41,7 +41,7 @@ namespace MSTestForJenkins
 
         }
 
-        [TestMethod]
+       /* [TestMethod]
         public void TestLogin()
         {
             Console.WriteLine(driver.Title);
@@ -49,6 +49,6 @@ namespace MSTestForJenkins
 
             Thread.Sleep(3000);
             driver.Quit();
-        }
+        }*/
     }
 }
