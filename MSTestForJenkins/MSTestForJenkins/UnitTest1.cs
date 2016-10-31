@@ -4,6 +4,7 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium;
 using System.Threading;
 using OpenQA.Selenium.Edge;
+using OpenQA.Selenium.Chrome;
 
 namespace MSTestForJenkins
 {
@@ -25,10 +26,10 @@ namespace MSTestForJenkins
         private IWebDriver driver;
         private const string baseUrl = "https://www.onliner.by/";
 
-        /*[TestInitialize]
+        [TestInitialize]
         public void Init()
         {
-            driver = new FirefoxDriver();
+            driver = new ChromeDriver();
             driver.Navigate().GoToUrl(baseUrl);
         }
 
@@ -38,14 +39,11 @@ namespace MSTestForJenkins
             Thread.Sleep(3000);
             driver.Quit();
 
-        }*/
+        }
 
         [TestMethod]
         public void TestLogin()
         {
-            driver = new FirefoxDriver();
-            driver.Navigate().GoToUrl(baseUrl);
-
             Console.WriteLine(driver.Title);
            // Assert.AreEqual(baseUrl, driver.Url);
 
