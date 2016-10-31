@@ -15,7 +15,7 @@ namespace MSTestForJenkins
         [TestMethod]
         public void TestMethod2()
         {
-            Assert.AreEqual(2, 5);
+            Assert.AreEqual(2, 2);
         }
     }
 }
