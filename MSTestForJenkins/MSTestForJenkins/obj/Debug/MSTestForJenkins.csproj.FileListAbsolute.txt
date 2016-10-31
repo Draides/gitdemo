@@ -1,0 +1,6 @@
+c:\users\siarhei_hulkou\documents\visual studio 2015\Projects\MSTestForJenkins\MSTestForJenkins\bin\Debug\MSTestForJenkins.dll
+c:\users\siarhei_hulkou\documents\visual studio 2015\Projects\MSTestForJenkins\MSTestForJenkins\bin\Debug\MSTestForJenkins.pdb
+c:\users\siarhei_hulkou\documents\visual studio 2015\Projects\MSTestForJenkins\MSTestForJenkins\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\siarhei_hulkou\documents\visual studio 2015\Projects\MSTestForJenkins\MSTestForJenkins\obj\Debug\MSTestForJenkins.csprojResolveAssemblyReference.cache
+c:\users\siarhei_hulkou\documents\visual studio 2015\Projects\MSTestForJenkins\MSTestForJenkins\obj\Debug\MSTestForJenkins.dll
+c:\users\siarhei_hulkou\documents\visual studio 2015\Projects\MSTestForJenkins\MSTestForJenkins\obj\Debug\MSTestForJenkins.pdb
