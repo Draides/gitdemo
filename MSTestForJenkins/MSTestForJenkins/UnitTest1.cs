@@ -36,6 +36,7 @@ namespace MSTestForJenkins
         [TestCleanup]
         public void Cleanup()
         {
+            Assert.AreEqual(baseUrl, driver.Url);
             Thread.Sleep(3000);
             driver.Quit();
 
