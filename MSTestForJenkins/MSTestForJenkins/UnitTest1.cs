@@ -3,12 +3,13 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium;
 using System.Threading;
+using OpenQA.Selenium.Edge;
 
 namespace MSTestForJenkins
 {
     [TestClass]
     public class UnitTest1
-    {/*
+    {
         [TestMethod]
         public void TestMethod1()
         {
@@ -20,11 +21,11 @@ namespace MSTestForJenkins
         {
             Assert.AreEqual(2, 2);
         }
-        */
+        
         private IWebDriver driver;
         private const string baseUrl = "https://www.onliner.by/";
 
-        [TestInitialize]
+        /*[TestInitialize]
         public void Init()
         {
             driver = new FirefoxDriver();
@@ -37,12 +38,19 @@ namespace MSTestForJenkins
             Thread.Sleep(3000);
             driver.Quit();
 
-        }
+        }*/
 
         [TestMethod]
         public void TestLogin()
         {
+            driver = new EdgeDriver();
+            driver.Navigate().GoToUrl(baseUrl);
+
+
             Assert.AreEqual(baseUrl, driver.Url);
+
+            Thread.Sleep(3000);
+            driver.Quit();
         }
     }
 }
