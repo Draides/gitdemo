@@ -33,7 +33,7 @@ namespace MSTestForJenkins.Webdriver.Test
         [TestMethod]
         public void TestLogin()
         {
-
+            Assert.AreEqual(baseUrl, driver.Url);
         }
     }
 }
